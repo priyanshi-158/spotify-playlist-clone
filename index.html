@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img songplay src="logo1.jpg" alt="logo">Spotify</li>
+            <li>Home</li>
+            <li>Search</li>
+            <li>Your Library</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Evergreen Hits</h1>
+            <div>
+                <div class="songitem" id="1s">
+                    <img src="/covers/1.jpg" alt="1" ><span>Kesariya </span><span class="songlistplay"><span class="time"> 04:28 <i id="1" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+
+                <div class="songitem" id="2s">
+                    <img src="/covers/2.jpg" alt="1" ><span>Jo Tainu Dhoop Lagya</span><span class="songlistplay"><span class="time"> 03:43 <i id="2" class="fa-regular  songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="3s">
+                    <img src="/covers/3.jpg" alt="1" ><span>Vaaste </span><span class="songlistplay"><span class="time"> 03:16 <i id="3" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="4s">
+                    <img src="/covers/4.jpg" alt="1" ><span>Raatan Lambiyan </span><span class="songlistplay"><span class="time"> 03:50 <i id="4" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="5s">
+                    <img src="/covers/5.jpg" alt="1" ><span>Lag Ja Gale </span><span class="songlistplay"><span class="time"> 04:18 <i id="5" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="6s">
+                    <img src="/covers/6.jpg" alt="1" ><span>Tera Fitoor </span><span class="songlistplay"><span class="time"> 05:10 <i id="6" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="7s">
+                    <img src="/covers/7.jpg" alt="1" ><span>Chand Baaliyan </span><span class="songlistplay"><span class="time"> 01:43 <i id="7" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="8s">
+                    <img src="/covers/8.jpg" alt="1" ><span>Chaka Chak </span><span class="songlistplay"><span class="time"> 04:29 <i id="8" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="9s">
+                    <img src="/covers/9.jpg" alt="1" ><span>Ek Pyar Ka Nagma Hai </span><span class="songlistplay"><span class="time"> 05:56 <i id="9" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+                <div class="songitem" id="10s">
+                    <img src="/covers/10.jpg" alt="1" ><span>Baar Baar Dekho </span><span class="songlistplay"><span class="time"> 04:51 <i id="10" class="fa-regular songplay fa-circle-play"></i></span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-fast" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward-fast" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src=".." alt=""><span id="mastersongname">Kesariya</span> <span id="duration">04:28</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1cb1e6878f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
